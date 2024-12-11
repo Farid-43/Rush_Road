@@ -296,7 +296,7 @@ public class F1ShowcasePage extends JPanel {
         if (slideTimer != null) {
             slideTimer.stop();
         }
-        slideTimer = new Timer(5000, e -> showNext());
+        slideTimer = new Timer(4000, e -> showNext());
         slideTimer.start();
     }
 

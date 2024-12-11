@@ -85,7 +85,7 @@ public class Game extends JPanel {
         });
         setFocusable(true);
         car_x = 40;
-        car_y = 300; // Keep vertical position the same
+        car_y = 300;
         isUp = isDown = isLeft = isRight = false;
         speedX = speedY = 0;
         nOpponent = 0;
@@ -101,7 +101,6 @@ public class Game extends JPanel {
         loadSounds();
         loadImages();
 
-        // Initialize pedestrian arrays
         pedestrianX = new int[Constants.MAX_PEDESTRIANS];
         pedestrianY = new int[Constants.MAX_PEDESTRIANS];
         pedestrianType = new int[Constants.MAX_PEDESTRIANS];
@@ -249,10 +248,9 @@ public class Game extends JPanel {
         }
     }
 
-    // car is driving
     void moveRoad(int count) {
         if (crx == -999 && cry == -999) {
-            if (count % 10 == 0) { // after a certain time
+            if (count % 10 == 0) {
                 crx = 499; // send crossing location back at the beginning
                 cry = 0;
             }
@@ -564,10 +562,10 @@ public class Game extends JPanel {
             speedY = 0;
         } else if (e.getKeyCode() == KeyEvent.VK_DOWN) {
             isDown = false;
-            speedY = 0; // Reset speed
+            speedY = 0;
         } else if (e.getKeyCode() == KeyEvent.VK_LEFT) {
             isLeft = false;
-            speedX = 0; // Reset speed
+            speedX = 0;
         } else if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
             isRight = false;
             speedX = 0; // Reset speed
