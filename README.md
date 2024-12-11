@@ -1,5 +1,5 @@
 
-# Car Racing Game - README
+# Rush Road
 
 ## Overview
 A car racing game built using Java Swing and Firebase for authentication and data management. The game features multiple levels, player authentication, a showcase of F1 cars, and session management. Below is the breakdown of the application's flow and features.
