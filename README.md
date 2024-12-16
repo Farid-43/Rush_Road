@@ -5,22 +5,6 @@ A simple car game built using Java Swing and Firebase for authentication and dat
 
 ---
 
-## Setup and Installation
-
-### Prerequisites
-- Java JDK 11 or higher
-- Firebase Account
-
-### Firebase Setup
-1. Create a new Firebase project at [Firebase Console](https://console.firebase.google.com)
-2. Generate a new private key for your service account:
-   - Go to Project Settings > Service Accounts
-   - Click "Generate New Private Key"
-   - Save the downloaded file as `serviceAccountKey.json`
-3. Place the `serviceAccountKey.json` file in: `src/main/resources/`
-   
-
----
 
 ## Main Application Flow
 
