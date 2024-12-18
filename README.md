@@ -5,6 +5,14 @@ A simple car game built using Java Swing and Firebase for authentication and dat
 
 ---
 
+## Setup and Installation
+
+### Prerequisites
+- Java JDK 11 or higher
+- Firebase Account
+
+---
+
 
 ## Main Application Flow
 
